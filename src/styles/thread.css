@@ -1,0 +1,80 @@
+.thread {
+   padding: 20px 20px 2px 20px;
+   margin-bottom: 30px;
+   box-shadow: 2px 6px 5px grey;
+   border-top: 1px solid grey;
+}
+
+.thread-header img {
+   border-radius: 50%;
+}
+
+.thread .thread-header  {
+   display: flex;
+}
+
+.thread-header .owner {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   margin-left: 20px;
+}
+
+.thread-body {
+   margin-top: 15px;
+}
+
+.thread-body h4 {
+   font-size: 18px;
+}
+
+.thread-body p {
+   margin-top: 10px;
+   font-size: 14px;
+}
+
+.thread-footer {
+   display: flex;
+   margin-top: 20px;
+   border-top: 1px solid grey;
+}
+
+.vote {
+   display: flex;
+   align-items: center;
+   background-color: #fff;
+   padding: 5px;
+   width: 260px;
+   border-radius: 10px;
+}
+
+.down {
+   border-left: 1px solid grey;
+}
+
+.up {
+   padding-right: 10px;
+}
+
+.vote svg {
+   height: 25px;
+}
+
+.up svg {
+   color: green;
+}
+
+.down svg {
+   color: red;
+}
+
+.up, .down {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.up svg:hover {
+   color: green;
+}

@@ -1,0 +1,26 @@
+main {
+   background-color: red;
+   margin-top: 60px;
+   display: flex;
+   position: fixed;
+   width: 100%;
+}
+
+section {
+   height: 600px;
+}
+
+.category {
+   background-color: green;
+   width: 15%;
+}
+
+.main-content {
+   width: 60%;
+   background-color: #fff;
+   overflow-y: auto;
+}
+
+.leaderboards {
+   width: 25%;
+}
